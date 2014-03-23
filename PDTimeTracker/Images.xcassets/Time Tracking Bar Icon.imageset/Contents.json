@@ -3,12 +3,12 @@
     {
       "idiom" : "iphone",
       "scale" : "1x",
-      "filename" : "tab-bar-details-active.png"
+      "filename" : "tab-bar-tracking-active.png"
     },
     {
       "idiom" : "iphone",
       "scale" : "2x",
-      "filename" : "tab-bar-details-active@2x.png"
+      "filename" : "tab-bar-tracking-active@2x.png"
     }
   ],
   "info" : {

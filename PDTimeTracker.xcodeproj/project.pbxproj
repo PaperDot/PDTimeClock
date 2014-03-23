@@ -15,7 +15,7 @@
 		07312A0518DCA2270021AD1D /* PDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07312A0418DCA2270021AD1D /* PDAppDelegate.m */; };
 		07312A0818DCA2270021AD1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07312A0618DCA2270021AD1D /* Main.storyboard */; };
 		07312A0B18DCA2270021AD1D /* PDFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07312A0A18DCA2270021AD1D /* PDFirstViewController.m */; };
-		07312A0E18DCA2270021AD1D /* PDSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07312A0D18DCA2270021AD1D /* PDSecondViewController.m */; };
+		07312A0E18DCA2270021AD1D /* PDTimeClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 07312A0D18DCA2270021AD1D /* PDTimeClock.m */; };
 		07312A1018DCA2270021AD1D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07312A0F18DCA2270021AD1D /* Images.xcassets */; };
 		07312A1718DCA2270021AD1D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07312A1618DCA2270021AD1D /* XCTest.framework */; };
 		07312A1818DCA2270021AD1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 073129F418DCA2270021AD1D /* Foundation.framework */; };
@@ -48,14 +48,15 @@
 		07312A0718DCA2270021AD1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		07312A0918DCA2270021AD1D /* PDFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDFirstViewController.h; sourceTree = "<group>"; };
 		07312A0A18DCA2270021AD1D /* PDFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFirstViewController.m; sourceTree = "<group>"; };
-		07312A0C18DCA2270021AD1D /* PDSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDSecondViewController.h; sourceTree = "<group>"; };
-		07312A0D18DCA2270021AD1D /* PDSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDSecondViewController.m; sourceTree = "<group>"; };
+		07312A0C18DCA2270021AD1D /* PDTimeClock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDTimeClock.h; sourceTree = "<group>"; };
+		07312A0D18DCA2270021AD1D /* PDTimeClock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDTimeClock.m; sourceTree = "<group>"; };
 		07312A0F18DCA2270021AD1D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		07312A1518DCA2270021AD1D /* PDTimeTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDTimeTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07312A1618DCA2270021AD1D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		07312A1E18DCA2270021AD1D /* PDTimeTrackerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PDTimeTrackerTests-Info.plist"; sourceTree = "<group>"; };
 		07312A2018DCA2270021AD1D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		07312A2218DCA2270021AD1D /* PDTimeTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDTimeTrackerTests.m; sourceTree = "<group>"; };
+		07312A2C18DCA34C0021AD1D /* PaperDot_Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaperDot_Utility.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,13 +116,14 @@
 		073129FA18DCA2270021AD1D /* PDTimeTracker */ = {
 			isa = PBXGroup;
 			children = (
+				07312A2C18DCA34C0021AD1D /* PaperDot_Utility.h */,
 				07312A0318DCA2270021AD1D /* PDAppDelegate.h */,
 				07312A0418DCA2270021AD1D /* PDAppDelegate.m */,
 				07312A0618DCA2270021AD1D /* Main.storyboard */,
 				07312A0918DCA2270021AD1D /* PDFirstViewController.h */,
 				07312A0A18DCA2270021AD1D /* PDFirstViewController.m */,
-				07312A0C18DCA2270021AD1D /* PDSecondViewController.h */,
-				07312A0D18DCA2270021AD1D /* PDSecondViewController.m */,
+				07312A0C18DCA2270021AD1D /* PDTimeClock.h */,
+				07312A0D18DCA2270021AD1D /* PDTimeClock.m */,
 				07312A0F18DCA2270021AD1D /* Images.xcassets */,
 				073129FB18DCA2270021AD1D /* Supporting Files */,
 			);
@@ -257,7 +259,7 @@
 			files = (
 				07312A0518DCA2270021AD1D /* PDAppDelegate.m in Sources */,
 				07312A0118DCA2270021AD1D /* main.m in Sources */,
-				07312A0E18DCA2270021AD1D /* PDSecondViewController.m in Sources */,
+				07312A0E18DCA2270021AD1D /* PDTimeClock.m in Sources */,
 				07312A0B18DCA2270021AD1D /* PDFirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,6 +388,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PDTimeTracker/PDTimeTracker-Prefix.pch";
 				INFOPLIST_FILE = "PDTimeTracker/PDTimeTracker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -399,6 +402,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PDTimeTracker/PDTimeTracker-Prefix.pch";
 				INFOPLIST_FILE = "PDTimeTracker/PDTimeTracker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -463,6 +467,7 @@
 				07312A2818DCA2270021AD1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07312A2918DCA2270021AD1D /* Build configuration list for PBXNativeTarget "PDTimeTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +476,7 @@
 				07312A2B18DCA2270021AD1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

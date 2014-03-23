@@ -1,14 +1,14 @@
 {
   "images" : [
     {
-      "idiom" : "universal",
+      "idiom" : "iphone",
       "scale" : "1x",
-      "filename" : "second.png"
+      "filename" : "button_stop.png"
     },
     {
-      "idiom" : "universal",
+      "idiom" : "iphone",
       "scale" : "2x",
-      "filename" : "second@2x.png"
+      "filename" : "button_stop@2x.png"
     }
   ],
   "info" : {
